@@ -164,22 +164,16 @@ h3  {
   display:inline-block;
   border-bottom: 3px solid #3990c4;
 }
-.text {
+.options .callout {
   display: inline-block;
-  float:left;
-  margin-left: 500px;
-  margin-top: 10px;
+  margin: 40px auto;
+  width: 33%;
 }
-.text2 {
-  display: inline-block;
-  float:center;
-  margin-left: 320px;
-  margin-top: 10px;
+.options .callout .callout-content {
+  text-align: center;
 }
-.text3 {
-  display: inline-block;
-  margin-top: 10px;
-  margin-left: 350px;
+.options .callout .callout-content ul {
+  list-style-type: none;
 }
 .btn1 {
   width: 132px;
@@ -216,21 +210,19 @@ h3  {
   background-color: #6fd2da;
   min-width: 100%;
   height: 370px;
-  display: block;
+  display: inline-block;
   padding-top: 10px;
 }
 .start {
-  margin-left: 850px;
-  font-size: 36px;
+  font-size: 20px;
   font-family: "Avenir";
   color:#1b1a1a;
-  font-weight: 700;
+  font-weight: 900;
 }
 .enjoy {
   font-size: 20px;
   color:#1b1a1a;
   font-family: "Avenir";
-  margin-left: 750px;
 }
 
 .inputs {
@@ -240,12 +232,20 @@ h3  {
   border:none;
   width:382px;
   height: 52px;
-  margin-left: 800px;
 }
 .tryit {
   min-height:55px;
   width:189px;
   border-radius: 3px;
+}
+.freetrial .trial .fttxt {
+  text-align: center;
+}
+.freetrial .trial {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:40%;
 }
 .footer {
   background-color: #3990c4;
